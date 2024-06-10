@@ -11,10 +11,74 @@ header {
     color: white;
 }
 /* Estilos del carrousel */
+.carousel-item {
+    position: relative;
+    height: 400px;
+    
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Controla el nivel de oscurecimiento aquí */
+    z-index: 1; /* Asegúrate de que esto no sobrepase el z-index de `.carousel-caption` si quieres que el texto esté visible */
+}
+
 .carousel-item img {
-    max-height: 600px; 
-    width: auto;
-    object-fit: cover;
+    width: 100%;
+    height: 100%; /* Asegura que las imágenes cubran el contenedor */
+    object-fit: cover; /* Ajusta la imagen de forma que llene el espacio disponible sin deformarse */
+    transition: transform 1s ease, opacity 2s ease; /* Transición suave para el zoom y fade */
+    transform: scale(1.05); /* Inicia con un ligero zoom */
+    opacity: 0.5; /* Inicia invisible */
+}
+.carousel-item.active img {
+    transform: scale(1); /* Escala normal cuando es activo */
+    opacity: 1; /* Totalmente visible cuando es activo */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra perfectamente el contenido */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+.carousel-caption h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.carousel-caption p{
+    color: #007bff;
+}
+.carousel-caption .btn {
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none; /* Opcional: elimina el borde del botón */
+    padding: 15px;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+.carousel-caption .btn:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 
@@ -69,7 +133,7 @@ footer {
     margin: 10px;
 }
 
-
+/* Estilos del Navbar */
 .navbar{
     padding: 20px;
 
@@ -77,5 +141,9 @@ footer {
 
 .navbar-brand img{
     height: 70px;
+}
+
+.navbar-collapse ul li{
+    font-size: 20px;
 }
 
