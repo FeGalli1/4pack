@@ -27,6 +27,7 @@
 
 // NAVBAR generico para todas las paginas
 document.addEventListener('DOMContentLoaded', function() {
+
     const navbar = document.getElementById('navbar');
     navbar.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,4 +64,6 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.add('active');
         }
     });
+
+    const pie_pagina= document.getElementById()
 });
