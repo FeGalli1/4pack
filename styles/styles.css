@@ -10,6 +10,12 @@ header {
     background-color: #007bff;
     color: white;
 }
+/* Estilos del carrousel */
+.carousel-item img {
+    max-height: 300px; 
+    width: auto;
+    object-fit: cover;
+}
 
 footer {
     background-color: #343a40;
@@ -34,10 +40,34 @@ footer {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.overlay {
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+    z-index: 1;
+}
+
+/* .overlay {
     position: absolute;
    
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.section-doy img{
+    margin: 10px;
+}
+
+
+.navbar{
+    padding: 20px;
+}
+
+.navbar-brand{
+    height: 70px;
 }
