@@ -12,10 +12,17 @@ header {
 }
 /* Estilos del carrousel */
 .carousel-item img {
-    max-height: 300px; 
+    max-height: 600px; 
     width: auto;
     object-fit: cover;
 }
+
+
+
+
+
+
+
 
 footer {
     background-color: #343a40;
@@ -65,8 +72,10 @@ footer {
 
 .navbar{
     padding: 20px;
+
 }
 
-.navbar-brand{
+.navbar-brand img{
     height: 70px;
 }
+
