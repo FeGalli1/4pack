@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,19 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="./styles/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 </head>
 <body>
     <div id="navbar"></div>
+    <div class="container mb-8 mt-5" id="contacto">
+        <section id="sp-main-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="text-center mb-4">
+                            <h4>Contactenos</h4>
+                        </div>
+                        <form class="mb-3">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="subject" class="form-control" placeholder="Asunto" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" rows="5" class="form-control" placeholder="Consulta" required></textarea>
+                            </div>
 
-
-    
-    <!-- copiar esto para poner le pie de pagina -->
-    <footer class="bg-primary"  id="pie-pagina"></footer>
+                            <button type="submit" class="btn btn-primary">Enviar consulta</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-center mb-4">
+                            <i class="fa fa-map-marker fa-2x"></i>
+                            <h4>Parque Industrial Hudson</h4>
+                            <p>Av. Otto Bemberg 4410<br>Hudson (CP 1885)<br>Berazategui - Buenos Aires</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <i class="fa fa-phone fa-2x"></i>
+                            <h4>Telefono</h4>
+                            <p>+54 11 5272 6318</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <i class="fa fa-envelope fa-2x"></i>
+                            <h4>Email</h4>
+                            <p>comercial@4pack.com.ar</p>
+                        </div>
+                        <div class="text-center mb-4">
+                            <i class="fa fa-calendar fa-2x"></i>
+                            <h4>Horario</h4>
+                            <p>Lunes a viernes de 8:00 a 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26212.010352926267!2d-58.174745!3d-34.793328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a327cdda2d9f15%3A0x64d4f5391b1bf1e9!2sParque%20Industrial%20Hudson%20(%20Av%20Bemberg%204400%20)!5e0!3m2!1ses-419!2sus!4v1719184961464!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer id="pie-pagina">   </footer>
 
     <script src="./js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>
