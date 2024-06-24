@@ -161,6 +161,7 @@ footer {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 /* Section tecnologia */
 .section-tech {
     background-color: #f4f4f4; /* Fondo claro para contraste */
@@ -189,3 +190,29 @@ footer {
 }
 
 .section-tecnologia 
+=======
+/* form contacto */
+
+.mb-8 {
+    margin-bottom: 5rem;
+}
+
+#contacto h4 {
+    color: #0d6efd;
+}
+
+
+/* Sobre nosotros */
+
+.bg-greenA {
+    background: rgb(14, 255, 179);
+}
+
+.container-nosotros {
+    padding: 8%;
+}
+
+.container-nosotros h2 {
+    text-align: center;
+}
+>>>>>>> 02ad1895dfce4f562626c38e3b7b0be843e949a3
