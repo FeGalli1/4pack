@@ -94,8 +94,44 @@ header {
     }
 }
 
+/* ESTILOS SECTION PRODUCTOS */
+.productos-section {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+.productos-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.productos-subtitulo-container {
+    position: relative;
+    padding-left: 40px; /* Espacio para la barra */
+}
+.productos-subtitulo-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(13, 110, 253, 1);
+}
+.productos-subtitulo {
+    color: rgb(13, 110, 253, 1);
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.productos-titulo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    
+}
 
-
+/* ------------ */
 
 
 
@@ -119,7 +155,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-     inset: 10rem;
+    inset: 10rem;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.5);
 }
