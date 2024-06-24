@@ -93,11 +93,10 @@
 
 .envase-producto-imagen {
     max-width: 100%;
+    width: 800px;
     height: auto;
     margin-bottom: 20px;
-    border: 2px solid #dee2e6;
-    padding: 10px;
-    background-color: #fff;
+    box-shadow:0 5px 10px ;
 }
 
 .envase-producto-especificaciones {
@@ -112,7 +111,6 @@
 }
 
 .envase-producto-especificaciones th, .envase-producto-especificaciones td {
-    border: 1px solid #dee2e6;
     padding: 12px;
     text-align: left;
 }

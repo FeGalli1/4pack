@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="inicio.html">
-                <img src="./images/logo/logo.png" alt="Logo"> <!-- Cambia 'path_to_logo.png' al path correcto del logo -->
+                <img src="./images/logo/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,18 +46,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const pie_pagina = document.getElementById('pie-pagina')
     pie_pagina.innerHTML = `
-    <!-- Remove the container if you want to extend the Footer to full width. -->
+
     <div>
         <footer class="bg-primary text-center text-lg-start text-white">
-            <!-- Grid container -->
             <div class="container p-4">
-            <!--Grid row-->
             <div class="row my-4">
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-1">
 
                     <div class=" shadow-1-strong d-flex align-items-center justify-content-center  mx-auto" style="width: 150px; height: 150px;">
-                        <img src="./images/logo/logo-blanco.png" height="70" alt="Logo-blanco" loading="lazy" />
+                        <img src="./images/logo/logo-blanco.png" class="img-fluid" alt="Logo-blanco" loading="lazy" />
                     </div>
 
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
@@ -79,9 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </ul>
 
                 </div>
-                <!--Grid column-->
 
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <div class="d-flex align-items-center justify-content-center ">
                         <h5 class="text-uppercase ">PARQUE INDUSTRIAL HUDSON</h5>
@@ -100,9 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
 
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                                 
                 <div class="d-flex align-items-center justify-content-center ">
@@ -115,9 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </li>
                 </ul>
                 </div>
-                <!--Grid column-->
 
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
                     <div class="d-flex align-items-center justify-content-center  ">
                         <h5 class="text-uppercase  mb-2">  E-mail </h5> 
@@ -139,11 +130,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
             </div>
-            <!--Grid row-->
             </div>
-            <!-- Grid container -->
 
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
                 © 2024 4pack. Todos los derechos reservados.
