@@ -10,6 +10,19 @@ header {
     background-color: #007bff;
     color: white;
 }
+/* Estilos del Logo */
+.navbar-brand {
+    position: relative;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+
+
 /* Estilos del carrousel */
 .carousel-item {
     position: relative;
@@ -148,3 +161,31 @@ footer {
     font-size: 20px;
 }
 
+/* Section tecnologia */
+.section-tech {
+    background-color: #f4f4f4; /* Fondo claro para contraste */
+    padding: 50px 0;
+}
+
+.tech-card {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-10px); /* Efecto flotante al pasar el mouse */
+}
+
+.tech-icon {
+    width: 80px; /* Tamaño apropiado para los íconos */
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #0056b3; /* Color de la marca */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-tecnologia 
