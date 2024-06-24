@@ -157,3 +157,18 @@ footer {
 #contacto h4 {
     color: #0d6efd;
 }
+
+
+/* Sobre nosotros */
+
+.bg-greenA {
+    background: rgb(14, 255, 179);
+}
+
+.container-nosotros {
+    padding: 8%;
+}
+
+.container-nosotros h2 {
+    text-align: center;
+}
