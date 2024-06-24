@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e9ecef;
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Contenedor del álbum */
+
 .album {
     padding: 50px 0;
     display: flex;
@@ -16,7 +16,7 @@ body {
     gap: 20px;
 }
 
-/* Estilo de las tarjetas */
+
 .card {
     border: none;
     border-radius: 15px;
@@ -61,5 +61,5 @@ body {
     justify-content: center;
 }
 
-/* Estilo para la sección ¿Quiénes somos? */
+
 

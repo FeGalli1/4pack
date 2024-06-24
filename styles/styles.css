@@ -15,7 +15,7 @@ header {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-/* imagenes inicio */
+
 .section-doy img {
     margin-bottom: 10px;
     transition: transform 0.3s ease; 
@@ -31,7 +31,7 @@ header {
 }
 
 
-/* Estilos del Logo */
+
 .navbar-brand {
     position: relative;
     padding: 10px;
@@ -39,10 +39,10 @@ header {
 }
 
 .navbar-brand:hover {
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    transform: scale(1.1); 
 }
 
-/* Estilos del carrousel */
+
 .carousel {
     position: relative;
 }
@@ -51,7 +51,7 @@ header {
     z-index: 11;
 }
 .carousel-inner {
-    height: 500px; /* Fija la altura del carrusel */
+    height: 500px; 
 }
 
 .carousel-item {
@@ -60,19 +60,19 @@ header {
 
 .carousel-item img {
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    object-fit: cover; 
 }
 .carousel-caption {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centra perfectamente el contenido */
+    transform: translate(-50%, -50%); 
     z-index: 10;
     padding: 20px;
     color: #fff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
-    border-radius: 10px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
     height: 100%;
     width: 100%;
     display: flex;
@@ -90,9 +90,9 @@ header {
 }
 
 .carousel-caption .btn {
-    margin-top: 10px; /* Espacio entre el texto y el botón */
-    background-color: #007bff; /* Color de fondo del botón */
-    border: none; /* Opcional: elimina el borde del botón */
+    margin-top: 10px; 
+    background-color: #007bff; 
+    border: none; 
     padding: 15px;
     border-radius: 0;
     font-size: 13px;
@@ -100,7 +100,7 @@ header {
 }
 
 .carousel-caption .btn:hover {
-    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+    background-color: #0056b3; 
 }
 
 footer {
@@ -129,7 +129,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -137,7 +137,7 @@ footer {
     margin: 10px;
 }
 
-/* Estilos del Navbar */
+
 .navbar {
     padding: 20px;
 }
@@ -150,9 +150,9 @@ footer {
     font-size: 20px;
 }
 
-/* Section tecnologia */
+
 .section-tech {
-    background-color: #f4f4f4; /* Fondo claro para contraste */
+    background-color: #f4f4f4; 
     padding: 50px 0;
 }
 
@@ -163,22 +163,22 @@ footer {
 }
 
 .tech-card:hover {
-    transform: translateY(-10px); /* Efecto flotante al pasar el mouse */
+    transform: translateY(-10px); 
 }
 
 .tech-icon {
-    width: 80px; /* Tamaño apropiado para los íconos */
+    width: 80px; 
     margin-bottom: 20px;
 }
 
 .section-title {
-    color: #0056b3; /* Color de la marca */
+    color: #0056b3; 
     text-align: center;
     margin-bottom: 40px;
 }
 
 .section-tecnologia 
-/* form contacto */
+
 .mb-8 {
     margin-bottom: 5rem;
 }
@@ -195,7 +195,7 @@ footer {
     color: #0d6efd;
 }
 
-/* Sobre nosotros */
+
 
 .text-greenA{
     color:  rgb(159, 189, 216);
@@ -212,7 +212,7 @@ footer {
     text-align: center;
 }
 
-/* colores azul */
+
 .bg-azul-1 {
     background-color: #004173;
 }

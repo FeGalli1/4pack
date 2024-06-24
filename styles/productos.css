@@ -1,6 +1,4 @@
-/* Archivo: styles.css */
 
-/* ESTILOS SECTION PRODUCTOS */
 .productos-section {
     padding: 40px 20px;
 }
@@ -14,7 +12,7 @@
 
 .productos-subtitulo-container {
     position: relative;
-    padding-left: 40px; /* Espacio para la barra */
+    padding-left: 40px; 
 }
 
 .productos-subtitulo-container::before {
@@ -39,10 +37,10 @@
     font-weight: bold;
     color: #333;
     margin: 0;
-    padding-top: 10px; /* Espacio entre el subtítulo y el título */
+    padding-top: 10px; 
 }
 
-/* Estilos Productos */
+
 .card-img-top{
     min-height: 300px;
     max-height: 300px;
@@ -59,7 +57,7 @@
     color: black;
 }
 
-/* Efecto hover para las cards */
+
 .hover-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -70,7 +68,7 @@
 }
 
 
-/* Estilos productos pagina Especifica */
+
 .envase-container {
     width: 80%;
     margin: 0 auto;
