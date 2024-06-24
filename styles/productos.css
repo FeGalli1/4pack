@@ -1,0 +1,70 @@
+/* Archivo: styles.css */
+
+/* ESTILOS SECTION PRODUCTOS */
+.productos-section {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.productos-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.productos-subtitulo-container {
+    position: relative;
+    padding-left: 40px; /* Espacio para la barra */
+}
+
+.productos-subtitulo-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgba(13, 110, 253, 1); 
+}
+
+.productos-subtitulo {
+    color: rgba(13, 110, 253, 1); 
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.productos-titulo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding-top: 10px; /* Espacio entre el subtítulo y el título */
+}
+
+/* Estilos Productos */
+.card-img-top{
+    min-height: 280px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 230px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Efecto hover para las cards */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
