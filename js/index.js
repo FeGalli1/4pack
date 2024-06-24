@@ -47,8 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const pie_pagina = document.getElementById('pie-pagina')
     pie_pagina.innerHTML = `
     <!-- Remove the container if you want to extend the Footer to full width. -->
-<div >
-
+    <div>
         <footer class="bg-primary text-center text-lg-start text-white">
             <!-- Grid container -->
             <div class="container p-4">
@@ -151,6 +150,6 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
         </footer>
 
-        </div>
+    </div>
     `
 });
