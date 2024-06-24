@@ -197,8 +197,11 @@ footer {
 
 /* Sobre nosotros */
 
+.text-greenA{
+    color:  rgb(159, 189, 216);
+}
 .bg-greenA {
-    background: rgb(6, 148, 246);
+    background: rgb(159, 189, 216);
 }
 
 .container-nosotros {
