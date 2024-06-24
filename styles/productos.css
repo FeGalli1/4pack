@@ -45,7 +45,8 @@
 
 /* Estilos Productos */
 .card-img-top{
-    min-height: 280px;
+    min-height: 300px;
+    max-height: 300px;
 }
 .card-body{
     display: flex;
@@ -67,4 +68,65 @@
 .hover-card:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos productos pagina Especifica */
+.envase-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.envase-producto-section {
+    padding: 50px 0;
+}
+
+.envase-producto-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.envase-producto-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.envase-producto-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #dee2e6;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.envase-producto-especificaciones {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.envase-producto-especificaciones table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.envase-producto-especificaciones th, .envase-producto-especificaciones td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.envase-producto-especificaciones th {
+    background-color: rgba(13, 110, 253, 1);
+    color: white;
+}
+
+.envase-producto-especificaciones tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.envase-producto-especificaciones tr:hover {
+    background-color: #e9ecef;
 }
