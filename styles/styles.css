@@ -202,8 +202,8 @@ footer {
 
 /* Sobre nosotros */
 
-.bg-greenA {
-    background: rgb(14, 255, 179);
+ .bg-greenA {
+    background: #0694F6;
 }
 
 .container-nosotros {
@@ -212,4 +212,5 @@ footer {
 
 .container-nosotros h2 {
     text-align: center;
-}
+} 
+
