@@ -27,6 +27,9 @@ header {
     position: relative;
 }
 
+.carousel-indicators{
+    z-index: 11;
+}
 .carousel-inner {
     height: 500px; /* Fija la altura del carrusel */
 }
@@ -39,17 +42,22 @@ header {
     height: 100%;
     object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
 }
-
 .carousel-caption {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centra perfectamente el contenido */
     z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     color: #fff;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-caption h3 {
@@ -79,11 +87,7 @@ footer {
     background-color: #343a40;
 }
 
-#banner {
-    background-image: url('tu-imagen-de-fondo.jpg'); /* Asegúrate de reemplazar 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen real */
-    background-size: cover;
-    color: white;
-}
+
 
 .hero {
     background: url('../images/varios/empresa.jpg') center center / cover no-repeat;
